@@ -1,0 +1,26 @@
+body{
+    margin:0;
+}
+
+header, nav, section, article, aside, footer{
+    outline: 2px solid #555;
+    outline-offset: 0px;
+    height: 20vh;
+    margin:0;
+    padding:10px;
+    box-sizing: border-box;
+}
+
+section, article, aside{
+    width: 50%;
+}
+
+aside{
+    height: 40vh;
+    float: right;
+}
+
+p{
+    font-family: sans-serif;
+    margin:0;
+}
